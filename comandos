@@ -1,0 +1,55 @@
+descomprimir archivos .dev -> dpkg -i .dev
+
+******************************************
+instalar .run
+* chmod 755 <nombre del archivo>
+* sudo ./nombre del archivo
+
+******************XAMPP********************
+*sudo /opt/lampp/lampp start
+
+* cd /opt/lampp
+  sudo ./manager-linux-x64.run ->interface
+
+* sudo ./manager-linux.run   ->interface
+
+sudo /etc/init.d/apache2 stop -Z cuando se detiene apache2
+
+*******************PERMISOS PARA LEER ESCRIVIR Y EJECUTAR
+
+* sudo chmod 777 -R /opt/lampp/htdocs/
+
+*******************GITHUB
+
+simepre estamos en la raiz /
+/
+/opt/
+..etc
+---------------------
+ls -   =  listar
+mkdir = crear  carpetas
+cd  =  abrir
+
+pwd  = nos dice la ruta en la que nos encontramos
+
+1.---  git init
+2.---  git add
+3.---  git status
+4.--- git commit
+
+4.1-- git remote add origin https://
+4.2-- git push -u origin "branch"  = subir el proyecto (sin comillas)
+
+5.--- git log  = especificaiones del commit autor, fecha, id del commit
+6.--- git checkout -- "" =  revierte lo cambios ANTES DEL GIT COMMIT
+7.--- git diff -- "" =  para ver las diferencias hechas en los archivos
+
+8.--- git branch ""  = crear una version alternativa del proyecto (sin comillas)
+9.--- git checkout "" = cambiarse a la nueva version alternativa del proyecto (sin comillas)
+
+10.-- git clone (url) = descargar  proyecto
+
+
+
+
+
